@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="sysTitle sysDesc">
+  <title id="sysTitle">How Leppla Capital structures work together</title>
+  <desc id="sysDesc">Your bank at the base feeds upward to Layered Cash Management and the Securities Investment Pyramid. Money can also move between the two structures. Clients may use one or both.</desc>
+  <rect width="720" height="500" fill="#faf8f4"/>
+
+  <text x="360" y="28" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#b98421">READ FROM THE BOTTOM UP</text>
+
+  <!-- Top row: LCM and Pyramid -->
+  <rect x="40" y="52" width="290" height="148" rx="6" fill="#08284a"/>
+  <text x="185" y="88" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="17" font-weight="600" fill="#ffffff">Layered Cash Management</text>
+  <text x="185" y="114" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e8d7ae">L1 – L4 · Two-year reserve</text>
+  <text x="185" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.88)">Duration · operating surplus</text>
+  <text x="185" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">25 Basis Points</text>
+
+  <rect x="390" y="52" width="290" height="148" rx="6" fill="#0f355f"/>
+  <text x="535" y="88" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="16" font-weight="600" fill="#ffffff">Securities Investment Pyramid™</text>
+  <text x="535" y="114" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e8d7ae">Strategic long-term reserves</text>
+  <text x="535" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.88)">Risk tolerance · written mandate</text>
+  <text x="535" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">50 Basis Points</text>
+
+  <!-- Between structures -->
+  <line x1="330" y1="126" x2="390" y2="126" stroke="#b98421" stroke-width="2.5"/>
+  <polygon points="330,126 340,121 340,131" fill="#b98421"/>
+  <polygon points="390,126 380,121 380,131" fill="#b98421"/>
+  <text x="360" y="116" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#08284a">BETWEEN</text>
+
+  <!-- Vertical connectors bank to each structure (double-headed) -->
+  <line x1="185" y1="210" x2="185" y2="318" stroke="#b98421" stroke-width="2.5"/>
+  <polygon points="185,202 179,214 191,214" fill="#b98421"/>
+  <polygon points="185,326 179,314 191,314" fill="#b98421"/>
+
+  <line x1="535" y1="210" x2="535" y2="318" stroke="#b98421" stroke-width="2.5"/>
+  <polygon points="535,202 529,214 541,214" fill="#b98421"/>
+  <polygon points="535,326 529,314 541,314" fill="#b98421"/>
+
+  <!-- Bank base -->
+  <rect x="100" y="330" width="520" height="100" rx="6" fill="#b98421"/>
+  <text x="360" y="370" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="22" font-weight="600" fill="#08284a">Your Bank</text>
+  <text x="360" y="396" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#08284a">Operating account · L0</text>
+  <text x="360" y="418" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#3a2a10">Pay bills and receive cash here. We do not change this.</text>
+
+  <text x="360" y="462" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#5c646c">One structure or both. The bank stays either way.</text>
+  <text x="360" y="484" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5c646c">Together they form Leppla Capital’s full investment management offering.</text>
+</svg>
